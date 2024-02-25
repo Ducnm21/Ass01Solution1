@@ -39,69 +39,42 @@ namespace DataAccess
         // Initialize MemberList
         private static List<MemberObject> members = new List<MemberObject>
         {
-            new MemberObject
-            {
-                MemberID = 2,
-                MemberName = "NM Duc",
-                Email = "ducnguyenm.to@gmail.com",
-                Password = "Duc2003@",
-                City = "California",
-                Country = "United States"
-            },
-            new MemberObject
-            {
-                MemberID = 3,
-                MemberName = "Trần Phong",
-                Email = "tranphong@gmail.com",
-                Password = "abcxyz",
-                City = "BRVT",
-                Country = "Vietnam"
-            },
-            new MemberObject
-            {
-                MemberID = 4,
-                MemberName = "PhongNT",
-                Email = "phongntse150974@fpt.edu.vn",
-                Password = "123456",
-                City = "Hollywood",
-                Country = "United States"
-            },
-            new MemberObject
-            {
-                MemberID = 5,
-                MemberName = "Netflix",
-                Email = "netflix@gmail.com",
-                Password = "123456",
-                City = "Tokyo",
-                Country = "Japan"
-            },
-            new MemberObject
-            {
-                MemberID = 6,
-                MemberName = "FPTU",
-                Email = "fptu@gmail.com",
-                Password = "123456",
-                City = "London",
-                Country = "United Kingdom"
-            },
-            new MemberObject
-            {
-                MemberID = 7,
-                MemberName = "Conan",
-                Email = "conan@gmail.com",
-                Password = "123456",
-                City = "Osaka",
-                Country = "Japan"
-            },
-            new MemberObject
-            {
-                MemberID = 8,
-                MemberName = "Phúc Võ",
-                Email = "phucvo@gmail.com",
-                Password = "123456",
-                City = "Ho Chi Minh",
-                Country = "Vietnam"
-            }
+              new MemberObject
+           {
+               MemberID = 2,
+               MemberName = "NM Duc",
+               Email = "ducnguyenm.to@gmail.com",
+               Password = "Duc2003@",
+               City = "HaNoi",
+               Country = "Viet Nam"
+           },
+           new MemberObject
+           {
+               MemberID = 3,
+               MemberName = "Bach Nguyen",
+               Email = "bachns@gmail.com",
+               Password = "abcxyz",
+               City = "sABCSSA",
+               Country = "Vietnam"
+           },
+           new MemberObject
+           {
+               MemberID = 4,
+               MemberName = "Nguyen Minh Duc",
+               Email = "duclc200312345@gmail.com",
+               Password = "123123123",
+               City = "Ho Chi Minh",
+               Country = "Viet Nam"
+           },
+           new MemberObject
+           {
+               MemberID = 5,
+               MemberName = "Nguyen Duc",
+               Email = "NMduc2003@gmail.com",
+               Password = "123456",
+               City = "Califonia",
+               Country = "USA"
+           },
         };
         private MemberDAO()
         {
